@@ -1,0 +1,208 @@
+
+/*************************CSS**********************/
+
+<style>  // css样式标签
+
+选择器 {
+
+      属性: 值
+
+}
+
+ 
+  
+
+
+
+
+</style>
+
+
+
+p {   // 标签选择器,修改此类标签的颜色
+
+      color: red;
+
+}
+
+
+  .类名{   // 类选择器,修改调用此类标签的样式
+
+    color: green;
+
+
+}
+
+  #id {   // id选择器, 代码中只能调用一次
+
+
+
+
+
+
+}
+  
+
+  * {     // 通配符选择器, 对所有的标签有作用
+
+
+
+
+
+
+}
+
+
+
+***************字体样式:
+
+ body{  // 通常将body标签作为选择器
+
+        font-family: 'Microsoft YaHei',其他字体,其他字体;  // 字体样式
+ 
+        font-size： 16px;           // 设置字体大小
+
+        font-weight: 700/bold,400/normal;      // 设置字体粗细,normal为正常粗细
+
+        font-style:  normal, italic;   // 字体不倾斜/倾斜
+
+}
+
+
+
+
+***********文本样式:
+
+
+ 选择器{
+
+       color: red;
+         
+       color：#ff000;
+
+        color: rgb(255,0,255);
+
+        text-align: center,right,left;  // 文本对齐方式,居中,右,左对齐
+
+         text-decoration: underline;  // 给文本添加下划线
+                                    none;            // 取消文本默认的下划线
+
+         text-indent:    20px;       // 文本缩进,采用默认像素
+                                2em;        // 表示缩进2个字的大小
+
+         line-height:    26px;        // 文本行间距
+
+
+
+}
+
+
+
+*****************外部样式表:
+
+   1. 新建.css文件用于编写样式
+
+    <link rel="stylesheet" herf=".css文件路径">   </linl>   // 用link标签引入外部.css文件
+
+
+
+
+**************后代选择器：
+
+ 父标签 子标签 {   // 修改子标签内容样式
+
+
+
+
+
+
+
+
+}
+
+ 
+ .类名 子标签{
+
+
+
+}
+
+
+**************子元素选择器：
+
+ 父标签>子标签 { 修改一级子标签的样式
+
+
+
+
+
+
+
+}
+
+
+
+**************并集选择器：
+
+   标签1，标签2，标签3 {
+
+
+
+
+
+
+}
+
+
+
+*****************链接伪类选择器：
+
+  a:link{       }  // 所有未被访问的链接的样式
+
+  a:visited{        }   // 所有已被访问的链接
+
+   a:hover{     }       // 鼠标停留在链接上时
+
+   a:active{        }      //  鼠标按下为松开
+
+
+
+******************focus光标选择器：
+
+
+ input:focus {   // 当鼠标点击选中表单元素时改变样式
+
+
+
+
+}
+
+
+
+
+******************元素显示模式转换：
+
+
+  display: block;     // 转换为块元素
+             ：inline    // 转换为行元素
+             ：inline-block   // 转换为行内块元素 
+
+
+
+
+*****************背景图片属性：
+
+    background-image: url(图片路径);
+
+    background-repeat: none-repeat | repeat;   //  图片是否平铺
+
+    background-position:   top | center | bottom | left | right;   // 图片的位置
+
+    background-position： 50px 60px;    // 图片的精确位置（x，y）
+
+    background-attachment: fixed | scroll                   // 图片滚动或固定
+  
+    background: rgba(0,0,0,0.3);      // 背景透明度设置,由最后一个参数设置
+ 
+
+

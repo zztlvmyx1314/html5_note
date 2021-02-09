@@ -1,0 +1,26 @@
+/**************************盒子模型***************************/
+
+***********盒子地组成：
+
+   border  //  边框
+
+   margin    //  盒子间距
+
+   content   // 内容
+
+   padding              // 内边距
+
+
+
+
+***************盒子地样式：
+
+   border-width：          //  定义边框地粗细
+
+   border-style：           // 边框地样式(solid/实线,dashed/虚线,dotted/点);     
+
+   border-color:            // 边框颜色
+
+   border: 5px solid red;    // 复合写法
+
+   border-sollapse: collapse;   // 相邻边框合在一起
