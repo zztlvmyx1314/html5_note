@@ -4,7 +4,7 @@
 
    border  //  边框
 
-   margin    //  盒子间距
+   margin    //  盒子间距(外边距)
 
    content   // 内容
 
@@ -24,3 +24,70 @@
    border: 5px solid red;    // 复合写法
 
    border-sollapse: collapse;   // 相邻边框合在一起
+ 
+   border-top: 5px solid red;   // 设置上边框
+
+
+
+/**********************内边距(向外扩张)********************/
+
+   padding-left: 5px;    // 设置左边距
+
+   padding: 5px;             // 设置上下左右边距
+
+  padding: 5px 6px;     // 设置上下，左右边距
+
+ padding： 5px 5px 5px;   // 设置上边距，左右边距，下边距
+
+ padding：5px 5px 5px 5px；// 设置上，右，下，左，边距
+
+ margin    //  外边距(同内边距)
+ margin：0 auto；  // 左右居中
+
+
+
+
+/**********************其他样式*******************/
+
+  text-align: center；  // 子元素水平居中
+
+  overflow：hidden；  // 消除父子元素的外边距塌陷问题
+
+
+
+/*********************圆角边框********************/
+  
+
+ border-radius: 10px;   // 设置圆角边框，值为圆的半径
+
+
+/*********************盒子阴影*******************/
+
+box-shadow：px px px px color inset;   // 水平阴影  垂直阴影  模糊距离  阴影尺寸  阴影颜色 内阴影(前两个属性值为必需) 
+
+ 
+
+
+/**************************CSS浮动***********************/
+
+ float: left;  // 左浮动
+ 
+ float: right;  // 右浮动
+
+ float: none; // 默认值
+
+
+
+
+/*******************************清楚浮动*****************************/
+
+  overflow: hidden;   // 为父元素添加此属性用于清楚浮动
+
+ .clearfix:before, .clerafix:after{
+ 
+        content: "";
+        display: table;               }           // 双伪元素清除浮动
+                     
+
+                 
+ 
